@@ -25,7 +25,6 @@ console.log(addToZero([]))
 console.log(addToZero([1]))
 console.log(addToZero([1, 2, 3]))
 console.log(addToZero([1, 2, 3, -2]))
-// Runtime complexity: O(n^2)
 // Space complexity: O(n^2)
 
 // 2) Unique Characters
@@ -47,7 +46,6 @@ function hasUniqueChars(stringValue) {
 console.log("==> 2) Unique Characters ")
 console.log(hasUniqueChars("Monday"))
 console.log(hasUniqueChars("Moonday"))
-// Runtime complexity: O(n)
 // Space complexity: O(n)
 
 // 3) Pangram Sentence
@@ -70,7 +68,6 @@ function isPangram(sentence) {
 console.log("==> 3) Pangram Sentence ")
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 console.log(isPangram("I like cats, but not mice"))
-// Runtime complexity: O(n^2)
 // Space complexity: O(n^2)
 
 // 4) Longest Word
@@ -92,5 +89,4 @@ function findLongestWord(words) {
 }
 console.log("==> 4) Find Longest Word ")
 console.log(findLongestWord(["hi", "hello"]))
-// Runtime complexity: O(n) 
 // Space complexity: O(n)
